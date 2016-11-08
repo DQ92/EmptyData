@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmptyData_Example' do
+  pod 'EmptyData', :path => '../'
+
+  target 'EmptyData_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
