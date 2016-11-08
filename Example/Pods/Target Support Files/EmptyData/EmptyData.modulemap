@@ -1,0 +1,6 @@
+framework module EmptyData {
+  umbrella header "EmptyData-umbrella.h"
+
+  export *
+  module * { export * }
+}
